@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 53,
+    "uniqCompNum": 58,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -214,64 +214,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-p",
-          "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
-          },
-          "title": "CONTACT FORM",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "form": {
-            "action": "anant20r@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
@@ -366,7 +309,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -626,7 +569,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -831,7 +774,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
@@ -926,7 +869,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -982,6 +925,158 @@
           "title": "Bhagwan Mahavira's Life Story (Animated)&nbsp;",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "Contact.html": {
+      "settings": {
+        "title": "Contact Us",
+        "meta_descr": "Mail Us."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1h",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1l",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Please share your mail id m phone no and message.",
+          "form": {
+            "action": "anant20r@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         }
       ]
     }
