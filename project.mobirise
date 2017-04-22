@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JainLives",
-    "currentPage": "index.html",
+    "currentPage": "AacharyaTree.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 58,
+    "uniqCompNum": 109,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -41,6 +41,14 @@
             "Theme"
           ],
           "_name": "video1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            },
+            "DIV": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "video1-5",
           "_params": {
             "showText": true
@@ -62,15 +70,7 @@
               "loop": false
             }
           },
-          "text": "Welcome to JainLives.com&nbsp;",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            },
-            "DIV": {
-              "text-align": "center"
-            }
-          }
+          "text": "Welcome to JainLives.com&nbsp;"
         },
         {
           "_inherit": "msg-box5",
@@ -195,7 +195,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -214,7 +214,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
@@ -290,7 +290,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -309,7 +309,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -550,7 +550,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -569,7 +569,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -755,7 +755,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -774,7 +774,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
@@ -850,7 +850,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -869,7 +869,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1000,7 +1000,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1019,13 +1019,18 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-1l",
           "_params": {
             "labelsColor": "#232323",
@@ -1071,12 +1076,1005 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": true,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-1y",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": true,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-1z",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-20",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "IMAGE SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "BACKGROUND VIDEO",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider3-21",
+          "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "FULL SCREEN SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "VIDEO SLIDE",
+                "showText": true,
+                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "IMAGE SLIDE",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-22",
+          "articleLayout": false
+        }
+      ]
+    },
+    "AacharyaTree.html": {
+      "settings": {
+        "title": "Jain Aacharya Tree",
+        "meta_descr": "Try to create Jain 108 Muni shri Tree."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
-          }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1h",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-30",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "1",
+            "bgColor": "#2b6fba",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-2w",
+          "_params": {
+            "imageSize": "51",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/aadisagar-2000x2662.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/aadisagar-1400x1863.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">&nbsp;Aacharya Shri 108 Aadisagar Maharaj (Anklikar)I&nbsp;</span><br><br><u>Brief Introduction</u><br><br>",
+          "text": "Aacharya Aadi Sagar Ji Maharaj was a very prominent saint of present era, from Digamber tradition. After the salvation of Mahavir Swami around 2600 years ago, there was a rich tradition of Digamber saints, who left household life to purify their soul from karma and proceed towards Moksha. The tradition continued with no obstacles till 1300 AD, and then there was almost a disappearance of this tradition, because of attacks by the Muslims and the British.<br>The worship of saints is an essential for Jain householders because it gives them inspiration to become like them, and also accelerates them in their spiritual upliftment. Acharya Aadi Sagar Maharaj Ji revived the Digamber saints tradition in 19th Century.<br><br><br><b>Birth : Bhadra Pada Shukla 4, Vikram Sanvat 1923 Thursday<br>Birth Place: Ankali (Maharashtra)<br>Birth Name : Shivagaura Patil<br>Mothers Name : Akka Bai<br>Father’s Name : Sidha Goura Patil<br>Place of Muni Diksha : Kunthalgiri<br>Acharya Pada: JaiSinghpur, Maharashtra, Jyeshtha Panchami Shukla, Vikram Samvat 1972<br>Samadhi : Udgaav (Kunjvan), Falgun Krishna 13, Vi Sa 2001<br></b> <br><br><br>Maharaj Ji was born in 1809 in a small town Ankli in Karnataka state in India. Karnataka is in the south of India. These areas have a rich tradition of Digamber saints and a remarkable history for Jains. Maharaj Ji was religious from birth and the family business was landlord ship. His mother died when he was only 15 years old and his father died when he was 27 years old. These tragic events and his religious inclinations became reasons for his non-attachment towards the world. He used to follow the six essentials as a householder At age 40, he became Kshullak.( A Kshullak is one who leaves household life, uses only two pairs of clothes, eats once daily, and wonders from one place to another like a saint). After become Kshullak Ji, he started further progressing in his spiritual development.<br>At the age of 47 years he took Muni diksha, and gave up all his belongings including clothes. He was a great ascetic. He used to eat food once a week and completely fast for the rest 6 days. He used to do his Saadhna in forests. He used to take only one food item in his diet- in the mango season he used to take only mango juice in his diet. He used to stay in caves in the jungle for his meditation. Once a lion came while he was meditating, and still it did not bother him- the lion went away. In 1858 he was given the Acharya post in JaiSinghpur village. I<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj </a>"
+        }
+      ]
+    },
+    "Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html": {
+      "settings": {
+        "title": "Aacharya Shri 108 Mahaveer Kirti Ji Maharaj ",
+        "meta_descr": "Aacharya Shri 108 Mahaveer Kirti Ji Maharaj "
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2m",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-2n",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "1",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-2o",
+          "_params": {
+            "imageSize": "43",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mahaveerkirti2-2000x1833.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mahaveerkirti1-1400x1191.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "आचार्य महावीर कीर्ति जी महाराज का जन्म फिरोजाबाद उत्तर प्रदेश में ३ मई १९१० को पद्मावती पोरवाल जाति में श्री रतनलाल जी मत बुन्दा देवी की कोख से हुआ था।आपके ४ भाई बहिन थे ।आपका नाम महेंद्र सिंह रखा गया।आपकी प्रारंभिक शिक्षा फिरोजाबाद में हुई।अपनी १० वर्ष की उम्र में माताजी का देहांत हो जाने के कारन मन में संसार के प्रति उदासीनता आ गयी और वैराग्य की ओर अग्रसर हुए ।इसके लिए आपने पहले जैन धर्म का गहरा अध्ययन कर जैन दर्शन को समझकर आपने अपने मन में विचार कर लिया की मुझे संसार चक्र में नही फसना है।आपने सेठ हुकुमचंद महाविद्यालय इंदौर ,महाविद्यालय व्यावर में अध्ययन कर न्याय तीर्थ ,व्याकरण ,न्याय सिद्धांत आदि की परीक्षा उत्तीर्ण की,आपने ज्योतिष शास्त्र,मंत्र शास्त्र ,आयुर्वेद आदि का भी गहन अध्ययन किया ।आपको १८ भाषाओँ का ज्ञान एवं पशु पक्षियों की बोली का भी ज्ञान था।<br><b><br>Birth : Viashakh krisna 9 ,Year 1910.<br>Birth Place: Firozabad Uttarpradesh<br>Birth Name : Mahendra Singh<br>Mothers Name : Bundadevi<br>Father’s Name : Ratanlalji Jain<br>Muni Diksha : Falgun Shukl 11 ,Year-1943<br>Diksha Name : Shri Mahavirkirtiji Maharaj<br>Diksha Guru: Aacharya Aadisagar ji Anklikar<br>Place of Muni Diksha : Udgaon<br>Aacharya Pad : Ashwin Shukl 10 ,Year -1943<br>Muni Diksha : Falgun Shukl 11 ,Year-1943<br>Acharya Pad Pradata: Aacharya Aadi Sagar Anklikar<br>Samadhi Place: Mehsana Gujrat<br>Samadhi Tithi : Magh Krishn 6 Year-1972<br>Importance : Knowledge 18 Different Languages and Utkrushtha Tapashvi<br></b><br>आपने १६ वर्ष में श्रावक धर्म का निर्दोष आचरण करना प्रारंभ कर दिया और कठोर व्रतों का पालन करने लगे।संसार को असार समझकर शरीर व् भोग से विमुख हो गये और परम पूज्य मुनि चन्द्र सागर जी से सप्तम प्रतिमा के व्रत ग्रहण किये और २५ वर्ष के उम्र में मुनि दीक्षा वीर सागर जी से ग्रहण कीऔर अपना सारा समय ज्ञान उपार्जन व साधना में लगाने लगे।अब आपको ऐसे गुरु की तलाश थी जो त्याग और तपस्या साधना में लीन होकर ख्याति लाभ ,पुजादि से दूर हो।आखिर वो समय भी आ गया और आप उदगांव दक्षिण में विराजमान आचार्य आदिसागर जी अंकलीकर से मुनि दीक्षा हेतु निवेदन किया। आचार्य श्री ने खा की में निस्प्रही हूँ।जंगल में रहता हूँ आप उत्तर भारतीय है।आखिर आपने आचार्य श्री से निवेदन करके मुनि दीक्षा ले ली । आचार्य श्री की सेवा करना और अपने को ध्यान ताप व साधना में लगाना आपका मुख्य कार्य था।आचार्य श्री आदिसागर जी ने महावीर कीर्ति जी को सुयोग्य शिष्य मानकर १९४३ में उदगांव में अपना आचार्य पद से महावीर कीर्ति जो अलंकृत किया और आप मुनि महावीर कीर्ति से से आचार्य महावीर कीर्ति जी बन गए ।आपने अपने गुरु की सल्लेखना पूर्वक समाधी करायी । उसके बाद आपने अपने संघ के साथ दक्षिण में विहार कर धर्म प्रभावना करने लगे।आपने दक्षिण महाराष्ट्र ,बिहार ,उड़ीसा ,बंगाल ,गुजरात ,राजस्थान ,मध्य प्रदेश आदि स्थानों पर विहार करके धर्म की प्रभावना करी और भव्य जीवों को मुनि ,आर्यिका ,ऐलक, क्षुल्लक दीक्षा दी।और अंत समय में अपना आचार्य पद श्री विमल सागरजी को देकर सल्लेखना पूर्वक समाधिमरण किया।<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Vimal Sagar Ji Maharaj  </a>"
+        }
+      ]
+    },
+    "Aacharya Shri 108 Vimal Sagar Ji Maharaj .html": {
+      "settings": {
+        "title": "Aacharya Shri 108 Vimal Sagar Ji Maharaj ",
+        "meta_descr": "Aacharya Shri 108 Vimal Sagar Ji Maharaj "
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2p",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"true\">Aacharya Shri 108 Aadisagar</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-2q",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-2r",
+          "_params": {
+            "imageSize": "43",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mahaveerkirti2-2000x1833.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mahaveerkirti1-1400x1191.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "आचार्य महावीर कीर्ति जी महाराज का जन्म फिरोजाबाद उत्तर प्रदेश में ३ मई १९१० को पद्मावती पोरवाल जाति में श्री रतनलाल जी मत बुन्दा देवी की कोख से हुआ था।आपके ४ भाई बहिन थे ।आपका नाम महेंद्र सिंह रखा गया।आपकी प्रारंभिक शिक्षा फिरोजाबाद में हुई।अपनी १० वर्ष की उम्र में माताजी का देहांत हो जाने के कारन मन में संसार के प्रति उदासीनता आ गयी और वैराग्य की ओर अग्रसर हुए ।इसके लिए आपने पहले जैन धर्म का गहरा अध्ययन कर जैन दर्शन को समझकर आपने अपने मन में विचार कर लिया की मुझे संसार चक्र में नही फसना है।आपने सेठ हुकुमचंद महाविद्यालय इंदौर ,महाविद्यालय व्यावर में अध्ययन कर न्याय तीर्थ ,व्याकरण ,न्याय सिद्धांत आदि की परीक्षा उत्तीर्ण की,आपने ज्योतिष शास्त्र,मंत्र शास्त्र ,आयुर्वेद आदि का भी गहन अध्ययन किया ।आपको १८ भाषाओँ का ज्ञान एवं पशु पक्षियों की बोली का भी ज्ञान था।<br><b><br>Birth : Viashakh krisna 9 ,Year 1910.<br>Birth Place: Firozabad Uttarpradesh<br>Birth Name : Mahendra Singh<br>Mothers Name : Bundadevi<br>Father’s Name : Ratanlalji Jain<br>Muni Diksha : Falgun Shukl 11 ,Year-1943<br>Diksha Name : Shri Mahavirkirtiji Maharaj<br>Diksha Guru: Aacharya Aadisagar ji Anklikar<br>Place of Muni Diksha : Udgaon<br>Aacharya Pad : Ashwin Shukl 10 ,Year -1943<br>Muni Diksha : Falgun Shukl 11 ,Year-1943<br>Acharya Pad Pradata: Aacharya Aadi Sagar Anklikar<br>Samadhi Place: Mehsana Gujrat<br>Samadhi Tithi : Magh Krishn 6 Year-1972<br>Importance : Knowledge 18 Different Languages and Utkrushtha Tapashvi<br></b><br>आपने १६ वर्ष में श्रावक धर्म का निर्दोष आचरण करना प्रारंभ कर दिया और कठोर व्रतों का पालन करने लगे।संसार को असार समझकर शरीर व् भोग से विमुख हो गये और परम पूज्य मुनि चन्द्र सागर जी से सप्तम प्रतिमा के व्रत ग्रहण किये और २५ वर्ष के उम्र में मुनि दीक्षा वीर सागर जी से ग्रहण कीऔर अपना सारा समय ज्ञान उपार्जन व साधना में लगाने लगे।अब आपको ऐसे गुरु की तलाश थी जो त्याग और तपस्या साधना में लीन होकर ख्याति लाभ ,पुजादि से दूर हो।आखिर वो समय भी आ गया और आप उदगांव दक्षिण में विराजमान आचार्य आदिसागर जी अंकलीकर से मुनि दीक्षा हेतु निवेदन किया। आचार्य श्री ने खा की में निस्प्रही हूँ।जंगल में रहता हूँ आप उत्तर भारतीय है।आखिर आपने आचार्य श्री से निवेदन करके मुनि दीक्षा ले ली । आचार्य श्री की सेवा करना और अपने को ध्यान ताप व साधना में लगाना आपका मुख्य कार्य था।आचार्य श्री आदिसागर जी ने महावीर कीर्ति जी को सुयोग्य शिष्य मानकर १९४३ में उदगांव में अपना आचार्य पद से महावीर कीर्ति जो अलंकृत किया और आप मुनि महावीर कीर्ति से से आचार्य महावीर कीर्ति जी बन गए ।आपने अपने गुरु की सल्लेखना पूर्वक समाधी करायी । उसके बाद आपने अपने संघ के साथ दक्षिण में विहार कर धर्म प्रभावना करने लगे।आपने दक्षिण महाराष्ट्र ,बिहार ,उड़ीसा ,बंगाल ,गुजरात ,राजस्थान ,मध्य प्रदेश आदि स्थानों पर विहार करके धर्म की प्रभावना करी और भव्य जीवों को मुनि ,आर्यिका ,ऐलक, क्षुल्लक दीक्षा दी।और अंत समय में अपना आचार्य पद श्री विमल सागरजी को देकर सल्लेखना पूर्वक समाधिमरण किया।<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Vimal Sagar Ji Maharaj  </a>"
         }
       ]
     }
