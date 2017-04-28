@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "JainLives",
-    "currentPage": "AacharyaShri108MahaveerKirtiJiMaharaj.html",
+    "currentPage": "AacharyaShri108VimalSagarJiMaharaj.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#2969b0",
         "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
+        "successColor": "#2969b0",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
@@ -17,12 +17,12 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true,
-        "isRtl": true
+        "isScrollToTopButton": false,
+        "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 112,
+    "uniqCompNum": 128,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -36,42 +36,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            },
-            "DIV": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "video1-5",
-          "_params": {
-            "showText": true
-          },
-          "media": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/jainlives-1400x317.jpg",
-              "width": 1400,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=45YPNDzHt2k",
-              "aspectratio": "4:3",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "text": "Welcome to JainLives.com&nbsp;"
-        },
         {
           "_inherit": "msg-box5",
           "_styles": {
@@ -130,6 +94,42 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"Videos.html\" data-toolbar=\"-mbrBtnMove\">MORE</a> "
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            },
+            "DIV": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "video1-5",
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jainlives-1400x317.jpg",
+              "width": 1400,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=45YPNDzHt2k",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "text": "Welcome to JainLives.com&nbsp;"
+        },
+        {
           "_inherit": "menu",
           "_tags": [
             "Theme"
@@ -139,7 +139,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -148,7 +151,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -160,13 +165,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -179,18 +184,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-n",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -214,7 +223,72 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-3c",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/finallogo-128x138.png",
+              "width": 128,
+              "active": true,
+              "link": "#top",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>Jainlives.com<br>New Delhi -110019",
+          "text2": "<strong>Contacts</strong><br>\nEmail: jainlives@gmail.com<br>\nPhone: +91 (0) 7042030020<br>",
+          "text3": "<strong>Links</strong><br>\n<a href=\"#top\">Website builder</a><br>\nDownload for Android<br><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "text-align": "right",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "footer1-3d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 JainLives."
         }
       ]
     },
@@ -234,7 +308,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -243,7 +320,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -255,13 +334,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -274,18 +353,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-o",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -309,7 +392,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -494,7 +577,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -503,7 +589,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -515,13 +603,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -534,18 +622,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-w",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -569,7 +661,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -699,7 +791,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -708,7 +803,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -720,13 +817,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -739,18 +836,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-13",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -774,7 +875,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
@@ -794,7 +895,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -803,7 +907,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -815,13 +921,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -834,18 +940,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-19",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -869,7 +979,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -944,7 +1054,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -953,7 +1066,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -965,13 +1080,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -984,18 +1099,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-1h",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1019,7 +1138,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1506,7 +1625,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1515,7 +1637,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1527,13 +1651,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1546,18 +1670,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-1h",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1581,7 +1709,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1702,7 +1830,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1711,7 +1842,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1723,13 +1856,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1742,18 +1875,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-2m",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1777,7 +1914,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1898,7 +2035,10 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1907,7 +2047,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1919,13 +2061,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#141414"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#262626!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#2e2e2e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1938,18 +2080,22 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-2p",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#2e2e2e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1973,7 +2119,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRABHACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Mahaveer Kirti Ji Maharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Aacharya Shri 108 Vimal Sagar Ji Maharaj .html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2035,7 +2181,7 @@
             "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mahaveerkirti2-2000x1833.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/vimalsagar3-2000x2000.png",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -2054,7 +2200,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mahaveerkirti1-1400x1191.png",
+              "src": "@PROJECT_PATH@/assets/images/vimalsagar-1400x1866.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -2072,8 +2218,8 @@
               "size": 250
             }
           },
-          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
-          "text": "आचार्य महावीर कीर्ति जी महाराज का जन्म फिरोजाबाद उत्तर प्रदेश में ३ मई १९१० को पद्मावती पोरवाल जाति में श्री रतनलाल जी मत बुन्दा देवी की कोख से हुआ था।आपके ४ भाई बहिन थे ।आपका नाम महेंद्र सिंह रखा गया।आपकी प्रारंभिक शिक्षा फिरोजाबाद में हुई।अपनी १० वर्ष की उम्र में माताजी का देहांत हो जाने के कारन मन में संसार के प्रति उदासीनता आ गयी और वैराग्य की ओर अग्रसर हुए ।इसके लिए आपने पहले जैन धर्म का गहरा अध्ययन कर जैन दर्शन को समझकर आपने अपने मन में विचार कर लिया की मुझे संसार चक्र में नही फसना है।आपने सेठ हुकुमचंद महाविद्यालय इंदौर ,महाविद्यालय व्यावर में अध्ययन कर न्याय तीर्थ ,व्याकरण ,न्याय सिद्धांत आदि की परीक्षा उत्तीर्ण की,आपने ज्योतिष शास्त्र,मंत्र शास्त्र ,आयुर्वेद आदि का भी गहन अध्ययन किया ।आपको १८ भाषाओँ का ज्ञान एवं पशु पक्षियों की बोली का भी ज्ञान था।<br><b><br>Birth : Viashakh krisna 9 ,Year 1910.<br>Birth Place: Firozabad Uttarpradesh<br>Birth Name : Mahendra Singh<br>Mothers Name : Bundadevi<br>Father’s Name : Ratanlalji Jain<br>Muni Diksha : Falgun Shukl 11 ,Year-1943<br>Diksha Name : Shri Mahavirkirtiji Maharaj<br>Diksha Guru: Aacharya Aadisagar ji Anklikar<br>Place of Muni Diksha : Udgaon<br>Aacharya Pad : Ashwin Shukl 10 ,Year -1943<br>Muni Diksha : Falgun Shukl 11 ,Year-1943<br>Acharya Pad Pradata: Aacharya Aadi Sagar Anklikar<br>Samadhi Place: Mehsana Gujrat<br>Samadhi Tithi : Magh Krishn 6 Year-1972<br>Importance : Knowledge 18 Different Languages and Utkrushtha Tapashvi<br></b><br>आपने १६ वर्ष में श्रावक धर्म का निर्दोष आचरण करना प्रारंभ कर दिया और कठोर व्रतों का पालन करने लगे।संसार को असार समझकर शरीर व् भोग से विमुख हो गये और परम पूज्य मुनि चन्द्र सागर जी से सप्तम प्रतिमा के व्रत ग्रहण किये और २५ वर्ष के उम्र में मुनि दीक्षा वीर सागर जी से ग्रहण कीऔर अपना सारा समय ज्ञान उपार्जन व साधना में लगाने लगे।अब आपको ऐसे गुरु की तलाश थी जो त्याग और तपस्या साधना में लीन होकर ख्याति लाभ ,पुजादि से दूर हो।आखिर वो समय भी आ गया और आप उदगांव दक्षिण में विराजमान आचार्य आदिसागर जी अंकलीकर से मुनि दीक्षा हेतु निवेदन किया। आचार्य श्री ने खा की में निस्प्रही हूँ।जंगल में रहता हूँ आप उत्तर भारतीय है।आखिर आपने आचार्य श्री से निवेदन करके मुनि दीक्षा ले ली । आचार्य श्री की सेवा करना और अपने को ध्यान ताप व साधना में लगाना आपका मुख्य कार्य था।आचार्य श्री आदिसागर जी ने महावीर कीर्ति जी को सुयोग्य शिष्य मानकर १९४३ में उदगांव में अपना आचार्य पद से महावीर कीर्ति जो अलंकृत किया और आप मुनि महावीर कीर्ति से से आचार्य महावीर कीर्ति जी बन गए ।आपने अपने गुरु की सल्लेखना पूर्वक समाधी करायी । उसके बाद आपने अपने संघ के साथ दक्षिण में विहार कर धर्म प्रभावना करने लगे।आपने दक्षिण महाराष्ट्र ,बिहार ,उड़ीसा ,बंगाल ,गुजरात ,राजस्थान ,मध्य प्रदेश आदि स्थानों पर विहार करके धर्म की प्रभावना करी और भव्य जीवों को मुनि ,आर्यिका ,ऐलक, क्षुल्लक दीक्षा दी।और अंत समय में अपना आचार्य पद श्री विमल सागरजी को देकर सल्लेखना पूर्वक समाधिमरण किया।<br>",
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri &nbsp;108 VimalSagar\tJi Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "<br><br>जन्म ( Birth) : अश्विनी कृष्णा ७ सन १९१५ (Ashwin krisna 7 ,Year 1915)<br>जन्म स्थान (Birth Place) : कोसमा उत्तरप्रदेश (Kosma Uttarpradesh)<br>जन्म का नाम (Birth Name):\tनेमिचंद्र जैन (Nemichandra Jain)<br>माता का नाम (Mothers Name) : \tकटोरिदेवी जैन (Katoridevi Jain)<br>पिता का नाम (Father’s Name) :\tबिहारिलालजी जैन (Biharilal Jain)<br>मुनि दीक्षा तिथि (Muni Diksha) :\tफाल्गुन शुक्ला १३ सन १९५२ (Falgun Shukl 13 ,Year-1952)<br>दीक्षा नाम (Diksha Name) :\tविमलसागरजी महाराज (Vimal Sagar Ji Maharaj)<br>दीक्षा गुरु (Diksha Guru):\tआचार्य श्री १०८ महावीरकीर्तिजी महाराज (Aacharya Mahaveer Kirti Ji)<br>आचार्य पद तिथि (Place of Aacharya Pad) : Tundla Uttarpradesh<br>आचार्य पद प्रदाता(Acharya Pad Pradata):\tआचार्य श्री १०८ महावीरकीर्तिजी महाराज(Aacharya Mahaveer Kirti Ji)<br>समाधि स्थल (Samadhi Place):\tसम्मेदशिखर सिद्धक्षेत्र(SammedShikharji Siddhakshetra)<br>समाधि तिथि(Samadhi Tithi) :\tपौष कृष्णा १२ सन १९९४(Poash Krishna 12 Year-1994)<br>विशेषता (Importance):\tविध्वान, निमित्तज्ञान शिरोमणि (Nimmit Gyani)<br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Vimal Sagar Ji Maharaj  </a>"
         }
       ]
