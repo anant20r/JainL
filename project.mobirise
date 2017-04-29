@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JainLives",
-    "currentPage": "AacharyaShri108VimalSagarJiMaharaj.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 128,
+    "uniqCompNum": 152,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -33,7 +33,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -223,7 +224,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -295,7 +296,8 @@
     "Videos.html": {
       "settings": {
         "title": "Videos",
-        "meta_descr": "Video Pages"
+        "meta_descr": "Video Pages",
+        "order": 2
       },
       "components": [
         {
@@ -392,7 +394,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -564,7 +566,8 @@
     "Kidsmore.html": {
       "settings": {
         "title": "Kids Monre Section ",
-        "meta_descr": "Kids More Videos"
+        "meta_descr": "Kids More Videos",
+        "order": 3
       },
       "components": [
         {
@@ -661,7 +664,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -778,7 +781,8 @@
     "Prabachan.html": {
       "settings": {
         "title": "Web Builder Title",
-        "meta_descr": "Web Builder Description"
+        "meta_descr": "Web Builder Description",
+        "order": 4
       },
       "components": [
         {
@@ -875,14 +879,15 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
     "Stores.html": {
       "settings": {
         "title": "More Stories",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 5
       },
       "components": [
         {
@@ -979,7 +984,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1041,7 +1046,8 @@
     "Contact.html": {
       "settings": {
         "title": "Contact Us",
-        "meta_descr": "Mail Us."
+        "meta_descr": "Mail Us.",
+        "order": 6
       },
       "components": [
         {
@@ -1138,7 +1144,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1612,7 +1618,8 @@
     "AacharyaTree.html": {
       "settings": {
         "title": "Jain Aacharya Tree",
-        "meta_descr": "Try to create Jain 108 Muni shri Tree."
+        "meta_descr": "Try to create Jain 108 Muni shri Tree.",
+        "order": 7
       },
       "components": [
         {
@@ -1709,7 +1716,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1817,7 +1824,8 @@
     "AacharyaShri108MahaveerKirtiJiMaharaj.html": {
       "settings": {
         "title": "Aacharya Shri 108 Mahaveer Kirti Ji Maharaj ",
-        "meta_descr": "Aacharya Shri 108 Mahaveer Kirti Ji Maharaj "
+        "meta_descr": "Aacharya Shri 108 Mahaveer Kirti Ji Maharaj ",
+        "order": 8
       },
       "components": [
         {
@@ -1914,7 +1922,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2022,7 +2030,8 @@
     "AacharyaShri108VimalSagarJiMaharaj.html": {
       "settings": {
         "title": "Aacharya Shri 108 Vimal Sagar Ji Maharaj ",
-        "meta_descr": "Aacharya Shri 108 Vimal Sagar Ji Maharaj "
+        "meta_descr": "Aacharya Shri 108 Vimal Sagar Ji Maharaj ",
+        "order": 9
       },
       "components": [
         {
@@ -2119,7 +2128,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2176,9 +2185,9 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-2r",
           "_params": {
-            "imageSize": "43",
+            "imageSize": "47",
             "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingBottom": "4",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/vimalsagar3-2000x2000.png",
@@ -2219,8 +2228,1041 @@
             }
           },
           "title": "<span style=\"line-height: 1.1;\">Aacharya Shri &nbsp;108 VimalSagar\tJi Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
-          "text": "<br><br>जन्म ( Birth) : अश्विनी कृष्णा ७ सन १९१५ (Ashwin krisna 7 ,Year 1915)<br>जन्म स्थान (Birth Place) : कोसमा उत्तरप्रदेश (Kosma Uttarpradesh)<br>जन्म का नाम (Birth Name):\tनेमिचंद्र जैन (Nemichandra Jain)<br>माता का नाम (Mothers Name) : \tकटोरिदेवी जैन (Katoridevi Jain)<br>पिता का नाम (Father’s Name) :\tबिहारिलालजी जैन (Biharilal Jain)<br>मुनि दीक्षा तिथि (Muni Diksha) :\tफाल्गुन शुक्ला १३ सन १९५२ (Falgun Shukl 13 ,Year-1952)<br>दीक्षा नाम (Diksha Name) :\tविमलसागरजी महाराज (Vimal Sagar Ji Maharaj)<br>दीक्षा गुरु (Diksha Guru):\tआचार्य श्री १०८ महावीरकीर्तिजी महाराज (Aacharya Mahaveer Kirti Ji)<br>आचार्य पद तिथि (Place of Aacharya Pad) : Tundla Uttarpradesh<br>आचार्य पद प्रदाता(Acharya Pad Pradata):\tआचार्य श्री १०८ महावीरकीर्तिजी महाराज(Aacharya Mahaveer Kirti Ji)<br>समाधि स्थल (Samadhi Place):\tसम्मेदशिखर सिद्धक्षेत्र(SammedShikharji Siddhakshetra)<br>समाधि तिथि(Samadhi Tithi) :\tपौष कृष्णा १२ सन १९९४(Poash Krishna 12 Year-1994)<br>विशेषता (Importance):\tविध्वान, निमित्तज्ञान शिरोमणि (Nimmit Gyani)<br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Vimal Sagar Ji Maharaj  </a>"
+          "text": "<br><br>जन्म ( Birth) : अश्विनी कृष्णा ७ सन १९१५ (Ashwin krisna 7 ,Year 1915)<br>जन्म स्थान (Birth Place) : कोसमा उत्तरप्रदेश (Kosma Uttarpradesh)<br>जन्म का नाम (Birth Name):\tनेमिचंद्र जैन (Nemichandra Jain)<br>माता का नाम (Mothers Name) : \tकटोरिदेवी जैन (Katoridevi Jain)<br>पिता का नाम (Father’s Name) :\tबिहारिलालजी जैन (Biharilal Jain)<br>मुनि दीक्षा तिथि (Muni Diksha) :\tफाल्गुन शुक्ला १३ सन १९५२ (Falgun Shukl 13 ,Year-1952)<br>दीक्षा नाम (Diksha Name) :\tविमलसागरजी महाराज (Vimal Sagar Ji Maharaj)<br>दीक्षा गुरु (Diksha Guru):\tआचार्य श्री १०८ महावीरकीर्तिजी महाराज (Aacharya Mahaveer Kirti Ji)<br>आचार्य पद तिथि (Place of Aacharya Pad) : Tundla Uttarpradesh<br>आचार्य पद प्रदाता(Acharya Pad Pradata):\tआचार्य श्री १०८ महावीरकीर्तिजी महाराज(Aacharya Mahaveer Kirti Ji)<br>समाधि स्थल (Samadhi Place):\tसम्मेदशिखर सिद्धक्षेत्र(SammedShikharji Siddhakshetra)<br>समाधि तिथि(Samadhi Tithi) :\tपौष कृष्णा १२ सन १९९४(Poash Krishna 12 Year-1994)<br>विशेषता (Importance):\tविध्वान, निमित्तज्ञान शिरोमणि (Nimmit Gyani)<br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"VidhyaSagarJiMaharaj.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Vidhya Sagar Ji Maharaj</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a> "
+        }
+      ]
+    },
+    "PushpdantSagar.html": {
+      "settings": {
+        "title": "Aacharya Shri 108 Pushpdant Sagar Ji Maharaj",
+        "meta_descr": "Aacharya Shri 108 Pushpdant Sagar Ji Maharaj ",
+        "order": 11
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3q",
+          "_params": {
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-3r",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-3s",
+          "_params": {
+            "imageSize": "47",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pushpdant-2000x2259.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/pushpdant3-1400x1869.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri &nbsp;108 Pushpdant Sagar\tJi Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "<br><br><b>जन्म:\t१ जनवरी 1954<br>जन्म स्थान :\tगोंदिया (महाराष्ट्र ).<br>जन्म का नाम\tसुशील जैन<br>माता का नाम :\tश्रीमती मथुरादेवी जैन<br>पिता का नाम :\tश्री कोमलचंद जैन<br>क्षुल्लक दीक्षा तिथि :\t२ नवम्बर १९७८<br>क्षुल्लक दीक्षा स्थान :\tनैना गिरी<br>ऐलक दीक्षा तिथि :\tफाल्गुन शुक्ला १३ सन १९५२<br>ऐलक दीक्षा स्थान :\tनैना गिरी<br>ऐलक दीक्षा गुरु :\tआचार्य श्री १०८ विद्यासागर जी महाराज<br>मुनि दीक्षा तिथि :\t३१ जनवरी , १९८०<br>दीक्षा नाम :\tपुष्पदंत सागर जी महाराज<br>दीक्षा गुरु :\tआचार्य श्री १०८ विमलसागरजी महाराज<br>मुनि दीक्षा स्थल :\tबालावेहत , उ.प्र.<br>आचार्य पद तिथि:\t३१ मार्च , १९८६<br>आचार्य पद प्रदाता:\tआचार्य श्री १०८ विमलसागरजी महाराज<br>आचार्य पद स्थल :\tगोम्मट गिरी , इंदौर<br>विशेषता :\tपुष्पगिरी तीर्थ प्रणेता</b><br><br>Acharya Pushpdant Sagar is a saint who practices meditation, distributes knowledge and he walks through his path over the edge of 28 fundamental characters but still serving mankind is motto of his life. Pushpgiri Tirth is his greatest dream that is coming true. Pushpgiri Tirth is an endeavor to establish nobility, care and help to mankind.. 25 major dream Projects are under progress, like Vatsalaya Dhaam (Muni Shree 108 Pulak Sagar Ji Maharaj), Muni Tarunsagar Sabhagreh (Muni Shri 108 Tarun Sagar Ji Maharaj), Muni Saurabh Sagar Cancer Hospital, Sant Niwas, Guru Bhawan and many more. Such a great Saint was born on 1st January when the sun was rising at the home of Shri Komalchand Jain and Shrimati Mathuradevi Jain at Gondiya (Mahashtra).<br>He was named Sushil by his parents. It was a big family they left Gondia and shifted to Chhatarpur but all in vain still facts did not help them. They had to face economic crises there too. As a result a child Sushil did not have a childhood but it turned into a professional phase. He was a wise, clever and tolerant since his childhood as it shows his name \"Sushil\". He had education with problems, lake of resources but completed it. He was active in all his college activities and graduated with P.S.C. also. But lines of his palms were showing him to attain the heights of Adhyatma (spirituality).<br>This came true when he received the chance to feed Adhyatma Yogi Sant Shiromani Acharya Vidyasagarji Maharaj in 1978. As a result of the love and vairagya of Acharya Vidyasagarji Maharaj, he had made-up his mind to predecesses him. His mother was a religious lady and permitted his complete devotion to Jainism. Sushil took Brahmacharya vrat on 12th April, 1978 by Acharya Vidyasagar. He had great passion towards Adhyatma. He was awarded Kshullak Deeksha on 2nd November 1978 at Naina Giri, Madhya Pradesh and Ailak Diksha on 14th January,1980 at same place by Acharya Pravar Vidya Sagar Ji Maharaj. He had strong aim to achieve Pancha Mahavrat in his life. He was very determined and got the chance to meet Acharya Vimalsagarji Maharaj and he noticed some great qualities in Ailak Ksheersagar (Now Pushpdant Sagar) through his \"Man Paryay knowledge\" and visualized him as a Muni. Finally, after 16 days of Ailak Diksha he rewarded him Muni Deeksha on 31st January, 1980 at Bala Vehat, U.P. Ailak Ksheersagar was name as \"Pushpdant Sagar\". His simple &amp; noble thoughts were like the ocean of spirituality and had deep effect in the hearts of the native villagers, as a result, other than Jains were also calling him the Vidyasagar of Chhattisgarh. His knowledge is like a mobile encyclopedia or a dictionary. His smiling face and deep knowledge of all religious texts can satisfy everyone’s curiosity. While seeing his Sanyam (tolerance), Sadhana (efforts) and his love to the young generation he got the prestigious Acharya Pad on 21st March, 1986 at Gommat Giri, Indore AcharyaPravar Vatsalaya Ratnakar Vimal Sagar Ji Maharaj.<br>Acharya shri Pushpadant Sagar Maharaj has written approximately 250-300 books and the most popular ones are: Tatvaavatar, Hum Dukhi Kyon, Nishchaya nahi Nishkarsh kaho, Mrityunjayi pravachan, Bhaktambar Kavya, Zhini ho gai chunariya, Bhagya aur Purusharth, Mahavir Mahavikas, Saurabh ke Suman, Bodhi Suman, Shata Laishya, Mere Mahavir, Anubhuti ke suman, Adhyatma aur Vigyan, Suman ke suman, Vishwa Itihas mai pehali bar, (Nepal Yatra), Lal kile per tis minute, Ahinsa, Ahinsa mai antar and many more. <br>He by his Tapasya, Tyag &amp; Sadhana has given stars to the World who are serving mankind and guiding them towards spiritualism. First star is Muni Shree Tarun Sagar ji Maharaj, who received Jaineshwary Deeksha at Bagidaura (Rajasthan). Krantikari Saint Rashtriya Saint Muni shri Tarun Sagarji Maharaja is the only saint who has received the honor being of \"State guest\" of M.P. and Maharashtra Govt. in the Jain History. Muni Shri Pulak Sagar ji was born as a lighting star to light the earth at Kanpur Varshayoga. Other stars who are spreading their light are Muni shri Pragya Sagarji, Muni Shri Prasanna Sagarji, Muni Shri Arun Sagarji, Muni Shri Prabhudh Sagarji (Samadhist). These 5 Dikshas were born to create a history. Muni Saurabh Sagarji is born as a Jupiter at Itva (U.P.) Chaturmas. Muni Shri Punya Sagar and Muni Shri Prabal Sagar (Twins) were born at Shvavasti Panchakalyanak.<br><br><br><b>Birth :1st January 1954<br>Birth Place:Gondiya (Mahashtra).<br>Birth Name :Sushil Jain<br>Mothers Name :Shrimati Mathuradevi Jain<br>Father’s Name :Shri Komalchand Jain<br>Brahmacharya vrat :12th April, 1978<br>Kshullak Deeksha :2nd November 1978 at Naina Giri<br>Ailak Deeksha :14th January,1980 at Naina Giri<br>Ailak Deeksha Guru :Aacharya Shri 108 Vidyasagar Ji Maharaj<br>Ailak Deeksha Name :Ailak Ksheersagar<br>Muni Diksha :31st January, 1980 Bala Vehat, U.P<br>Diksha Guru :Aacharya Shri 108 Vimal Sagar Ji Maharaj<br>Place of Muni Diksha :Bala Vehat, U.P<br>Place of Aacharya Pad :Gommat Giri, Indore<br>Aacharya Diksha :21st March, 1986<br>Acharya Pad Pradata:AcharyaPravar Vatsalaya Ratnakar Vimal Sagar Ji Maharaj<br>Importance:Pushpadant Sagar Maharaj has written approximately 250-300 books,Pushpgiri Tirth Praneta<br></b><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"VidhyaSagarJiMaharaj.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"ViragSagarJiMaharaj.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Shourabh Sagar Ji Maharaj</a>  "
+        }
+      ]
+    },
+    "VimadSagarJi.html": {
+      "settings": {
+        "title": "Muni Shri 108 Vimad Sagar Ji Maharaj",
+        "meta_descr": "Muni Shri 108 Vimad Sagar Ji Maharaj",
+        "order": 14
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3w",
+          "_params": {
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-3x",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-3y",
+          "_params": {
+            "imageSize": "34",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/acharya-virag-sagar-2000x3000.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/vimadsagar-1400x1331.jpg",
+              "link": "VimadSagarJi.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri &nbsp;108 Vimad Sagar\tJi Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "<br><br><b>जन्म:\t९ नवम्बर १९७६<br>जन्म नाम :\tसंजयकुमार जैन<br>जन्म स्थान :\tशाहगढ़ जिला सागर ,म.प्र.<br>माता जी नाम :\tश्रीमती सुशीला जैन<br>पिताजी नाम :\tश्री शील चंद जैन<br>ब्रह्मचर्य व्रत :\t८ नवम्बर १९९२<br>क्षुल्लक दीक्षा :\t२८ जनवरी १९९५<br>क्षुल्लक दीक्षा स्थान :\tमंगल गिरी सागर<br>क्षुल्लक दीक्षा गुरु :\tआचार्य श्री १०८ विराग सागर जी महाराज<br>ऐलक दीक्षा :\t२५ जून १९९८<br>ऐलक दीक्षा स्थान :\tशोरिपुर बटेश्वर आगरा<br>ऐलक दीक्षा गुरु :\tआचार्य श्री १०८ विराग सागर जी महाराज<br>मुनि दीक्षा :\t१४ दिसंबर १९९८<br>मुनि दीक्षा स्थान :\tबरासों (भिंड)<br>मुनि दीक्षा गुरु :\tआचार्य श्री १०८ विराग सागर जी महाराज<br>आचार्य पद :\t३१ मार्च २००७ महावीर जयन्ती<br>आचार्य पद स्थान :\tओरंगाबाद महाराष्ट्र<br>आचार्य पद प्रदाता :\tआचार्य श्री १०८ विराग सागर जी महाराज</b><br><br><br>Birth :\t09 Nov 1976<br>Birth Name:\tSanjay Kumar<br>Birth Place :\tShagarh District Sagar ,M.P.<br>Mother's Name :\tShrimati Sushila Jain<br>Father's Name\tShri SheelChand Jain<br>Brhmcharya Vrat :\t08 Nov 1992<br>Kshullak Diksha :\t28 June 1995<br>Kshullak Diksha Place:\tSagar MangalGiri<br>Kshulak Diksa Guru\tAacharya Shri 108 Virag Sagar Ji Maharaj<br>Ailak Diksha :\t25 June 1998<br>Ailak Diksha Place\tShoripur Batteshvar Aagra<br>Ailak Diksha Guru\tAacharya Shri 108 Virag Sagar Ji Maharaj<br>Muni Diksha\t14 Dec 1998<br>Muni Diksha Guru\tAacharya Shri 108 Virag Sagar Ji Maharaj<br>Muni Diksha Place :\tBaraason,Bhind<br>Aacharya Pad :\t31 March 2007 Mahaveer Jyanti<br>Aacharya Pad Place :\tAorangabaad Maharashtra<br>Aacharya Pad Pradata :\tAacharya Shri 108 Virag Sagar Ji Maharaj<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ViragSagarJi.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a>   "
+        }
+      ]
+    },
+    "ViharshSagarJi.html": {
+      "settings": {
+        "title": "Muni Shri 108 Viharsh Sagar Ji Maharaj",
+        "meta_descr": "Muni Shri 108 Viharsh Sagar Ji Maharaj",
+        "order": 15
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3z",
+          "_params": {
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-40",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-41",
+          "_params": {
+            "imageSize": "34",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/viharsh2-2000x2662.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/viharsh-1400x2094.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri &nbsp;108 Viharsh Sagar\tJi Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "<br><br><b>जन्म:\t०७ मार्च ,१९७०<br>जन्म  नाम:\tविनोद कुमार जैन (बंटी भैया )<br>जन्म स्थान::\tबीना म.प्र.<br>माता का नाम:\tश्रीमती आशा देवी जैन<br>पिता का नाम:\tस्वर्गीय श्री दीपचंद जैन<br>ऐलक दीक्षा:\t२३ फरवरी १९९६<br>ऐलक दीक्षा स्थान:\tदेवेन्द्र नगर ,पन्ना म.प्र.<br>ऐलक दीक्षा गुरू:\tआचार्य श्री विराग सागर जी<br>मुनि दीक्षा:\t१४ दिसंबर १९९८<br>मुनि दीक्षा स्थान :बरासों (भिंड)<br>मुनि दीक्षा गुरू:\tआचार्य श्री विराग सागर जी</b><br><br>A divine soul was born on 7 March 1970 in Veena. Friends and family members used to call him Bunty bhaiya .From an early age, he displayed signs of great compassion and the qualities of a natural leader. Munishri has a sharp intellect . In childhood he was notorious and many such interesting and spellbound tales of his childhood and teenage years are there.<br>At the very young age of 21, when Bunty bhaiya came in contact of “Saint shree 108 Acharya Shri Viragsagar Ji Maharaj”,his search for truth intensified. He was getting detached from materialistic World which can give nothing except instable happiness ,sorrows and grievances.All these events brought a great change towards his vision of life and nobody had even thought that this naughty child would become one of the most worshipped and greatest jain saint .Guruji is spreading essence of his great spiritual ideas through pravachans .Everyone can easily understand the munishri pravachans whether he is a jain or non jain .The credit of changing the lives of many goes to munishri ,he has inspired and taught us the way to lead a peaceful life with a motto of \"Jiyo aur Jeena do\"<br>In bhramchari days of his journey towards becoming a Digamber jain saint ,he was favourite of all. He had a great passion towards Adhyatama .He had a strong aim to achieve panch mahavrat in his life.All the devotees in his bhramcharya days used to call him as chaye(Tea) wala bhaiyaji. Just before becoming elak (the next step toward becoming a jain saint ) he along with other bhramchari bhaiyas toured shikarji.<br>He then placed his steps in Elak state .Elaks are those who used to wear a single piece of cloth (Langothi) around their waist .During his elak days the devotees used to spend their maximum time with him since he used to attend and listen everyone with great humility. This down to earth personality makes him favourite of all.<br><br><br><b>Birth Date\t7 March,1970<br>Birth Place\tBeena, MP<br>Birth Name\tVinod kumar Jain(Bunty Bhaiya)<br>Mother's Name\tSmt. Asha Devi Jain<br>Father's Name\tLate Shri Deepchand Jain<br>Aillak Diksha :\t23 Feb, 1996<br>Aillak Diksha Place:\tDevendranagar(Panna),M.P.<br>Muni Diksha\t14 Dec ,1998<br>Muni Diksha Guru\tAacharya Shri 108 Viragsagar Ji Maharaj<br>Muni Diksha Place :\tVarasurJi near Bhind, M.P.</b><br><br><br><br><br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ViragSagarJi.html\" data-toolbar=\"-mbrBtnMove\">Aacharya&nbsp;Shri 108 Virag Sagar Ji Maharaj</a>  "
+        }
+      ]
+    },
+    "VidhyaSagarJi.html": {
+      "settings": {
+        "title": "Aacharya Shri 108 Vidhya Sagar Ji Maharaj",
+        "meta_descr": "Aacharya Shri 108 Vidhya Sagar Ji Maharaj",
+        "order": 10
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-42",
+          "_params": {
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-43",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-44",
+          "_params": {
+            "imageSize": "33",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+            "bgColor": "#1571bc",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/vidyasagar-1400x1869.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri 108 Vidhya Sagar Ji Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "<span style=\"font-size: 1.07rem; line-height: 1.5;\">भारत-भू पर सुधारस की वर्षा करने वाले अनेक महापुरुष और संत कवि जन्म ले चुके हैं। उनकी साधना और कथनी-करनी की एकता ने सारे विश्व को ज्ञान रूपी आलोक से आलोकित किया है। इन स्थितप्रज्ञ पुरुषों ने अपनी जीवनानुभव की वाणी से त्रस्त और विघटित समाज को एक नवीन संबल प्रदान किया है। जिसने राजनैतिक, सामाजिक, धार्मिक, शैक्षणिक और संस्कृतिक क्षेत्रों में क्रांतिक परिवर्तन किये हैं। भगवान राम, कृष्ण, महावीर, बुद्ध, ईसा, हजरत मुहम्मदौर आध्यत्मिक साधना के शिखर पुरुष आचार्य कुन्दकुन्द, पूज्यपाद्, मुनि योगिन्दु, शंकराचार्य, संत कबीर, दादू, नानक, बनारसीदास, द्यानतराय तथा महात्मा गाँधी जैसे महामना साधकों की अपनी आत्म-साधना के बल पर स्वतंत्रता और समता के जीवन-मूल्य प्रस्तुत करके सम्पूर्ण मानवता को एक सूत्र में बाँधा है। उनके त्याग और संयम में, सिद्धांतों और वाणियों से आज भी सुख शांति की सुगन्ध सुवासित हो रही है। जीवन में आस्था और विश्वास, चरित्र और निर्मल ज्ञान तथा अहिंसा एवं निर्बैर की भावना को बल देने वाले इन महापुरुषों, साधकों, संत कवियों के क्रम में संतकवि दिगम्बर जैनाचार्य श्री विद्यासागर जी महाराज वर्तमान में शिखर पुरुष हैं, जिनकी ओज और माधुर्यपूर्ण वाणी में ऋजुता, व्यक्तित्व में समता, जीने में संयम की त्रिवेणी है। जीवन-मूल्यों को प्रतिस्ठित करने वाले बाल ब्रह्मचारी श्री विद्यासागर जी स्वभाव से सरल और सब जीवों के प्रति मित्रवत व्यवहार के संपोषक हैं, इसी के कारण उनके व्यक्तित्व में विश्व-बन्धुत्व की, मानवता की सौंधी-सुगन्ध विद्यमान है।</span><br>आश्विन शरदपूर्णिमा संवत 2003 तदनुसार 10 अक्टूबर 1946 को कर्नाटक प्रांत के बेलग्राम जिले के सुप्रसिद्ध सदलगा ग्राम में श्रेष्ठी श्री मलप्पा पारसप्पा जी अष्टगे एवं श्रीमती श्रीमतीजी के घर जन्मे इस बालक का नाम विद्याधर रखा गया। धार्मिक विचारों से ओतप्रोत, संवेदनशील सद्गृहस्थ मल्लपा जी नित्य जिनेन्द्र दर्शन एवं पूजन के पश्चात ही भोजनादि आवश्यक करते थे। साधु-सत्संगति करने से परिवार में संयम, अनुशासन, रीति-नीति की चर्या का ही परिपालन होता था। आप माता-पिता की द्वितीय संतान हो कर भी अद्वितीय संतान है। बडे भाई श्री महावीर प्रसाद स्वस्थ परम्परा का निर्वहन करते हुए सात्विक पूर्वक सद्गृहस्थ जीवन-यापन कर रहे हैं। माता-पिता, दो छोटे भाई अनंतनाथ तथा शांतिनाथ एवं बहिनें शांता व सुवर्णा भी आपसे प्रेरणा पाकर घर-गृहस्थी के जंजाल से मुक्त हो कर जीवन-कल्याण हेतु जैनेश्वरी दीक्षा ले कर आत्म-साधनारत हुए। धन्य है वह परिवार जिसमें सात सदस्य सांसारिक प्रपंचों को छोड कर मुक्ति-मार्ग पर चल रहे हैं। इतिहास में ऐसी अनोखी घटना का उदाहरण बिरले ही दिखता है।<br>विद्याधर का बाल्यकाल घर तथा गाँव वालों के मन को जीतने वाली आश्चर्यकारी घटनाओं से युक्त रहा है। खेलकूद के स्थान पर स्वयं या माता-पिता के साथ मन्दिर जाना, धर्म-प्रवचन सुनना, शुद्ध सात्विक आहार करना, मुनि आज्ञा से संस्कृत के कठिन सूत्र एवं पदों को कंठस्थ करना आदि अनेक घटनाऐं मानो भविष्य में आध्यात्म मार्ग पर चलने का संकेत दे रही थी। आप पढाई हो या गृहकार्य, सभी को अनुशासित और क्रमबद्ध तौर पर पूर्ण करते। बचपन से ही मुनि-चर्या को देखने , उसे स्वयं आचरित करने की भावना से ही बावडी में स्नान के साय पानी में तैरने के बहाने आसन और ध्यान लगाना, मन्दिर में विराजित मूर्ति के दर्शन के समय उसमे छिपी विराटता को जानने का प्रयास करना, बिच्छू के काटने पर भी असीम दर्द को हँसते हुए पी जाना, परंतु धार्मिक-चर्या में अंतर ना आने देना, उनके संकल्पवान पथ पर आगे बढने के संकेत थे। <br>गाँव की पाठशाला में मातृभाषा कन्नड में अध्ययन प्रारम्भ कर समीपस्थ ग्राम बेडकीहाल में हाई स्कूल की नवमी कक्षा तक अध्ययन पूर्ण किया। चाहे गणित के सूत्र हों या भूगोल के नक्शे, पल भर में कडी मेहनत और लगन से उसे पूर्ण करते थे। उन्होनें शिक्षा को संस्कार और चरित्र की आधारशिला माना और गुरुकुल व्यवस्थानुसार शिक्षा को ग्रहण किया, तभी तो आजतक गुरुशिष्य-परम्परा के विकास में वे सतत शिक्षा दे रहे हैं।<br>वास्तविक शिक्षा तो ब्रह्मचारी अवस्था में तथा पुनः मुनि विद्यासागर के रूप में गुरुवर श्री ज्ञानसागर जी के सान्निध्य में पूरी हुई। तभी वे प्रकृत, अपभ्रंस, संस्कृत, कन्नड, मराठी, अंग्रेजी, हिन्दी तथा बंग्ला जैसी अनेक भाषाओं के ज्ञाता और व्याकरण, छन्दशास्त्र, न्याय, दर्शन, साहित्य और अध्यात्म के प्रकाण्ड विद्वान आचार्य बने। आचार्य विद्यासागर मात्र दिवस काल में ही चलने वाले नग्नपाद पदयात्री हैं। राग, द्वेष, मोह आदि से दूर इन्द्रियजित, नदी की तरह प्रवाहमान, पक्षियों की तरह स्वच्छन्द, निर्मल, स्वाधीन, चट्टान की तरह अविचल रहते हैं। कविता की तरह रम्य, उत्प्रेरक, उदात्त, ज्ञेय और सुकोमल व्यक्तित्व के धनी आचार्य विद्यासागर भौतिक कोलाहलों से दूर, जगत मोहिनी से असंपृक्त तपस्वी हैं।<br>आपके सुदर्शन व्यक्तित्व को संवेदनशीलता, कमलवत उज्जवल एवं विशाल नेत्र, सम्मुन्नत ललाट, सुदीर्घ कर्ण, अजान बाहु, सुडौल नासिका, तप्त स्वर्ण-सा गौरवर्ण, चम्पकीय आभा से युक्त कपोल, माधुर्य और दीप्ति सन्युक्त मुख, लम्बी सुन्दर अंगुलियाँ, पाटलवर्ण की हथेलियाँ, सुगठित चरण आदि और अधिक मंडित कर देते हैं। वे ज्ञानी, मनोज्ञ तथा वाग्मी साधु हैं। और हाँ प्रज्ञा, प्रतिभा और तपस्या की जीवंत-मूर्ति।<br>बाल्यकाल में खेलकूद में शतरंज खेलना, शिक्षाप्रद फिल्में देखना, मन्दिर के प्रति आस्था रखना, तकली कातना, गिल्ली-डंडा खेलना, महापुरुषों और शहीद पुरुषों के तैलचित्र बनाना आदि रुचियाँ आपमें विद्यमान थी। नौ वर्ष की उम्र में ही चारित्र चक्रवर्ती आचार्य प्रवर श्री शांतिसागर जी महाराज के शेडवाल ग्राम में दर्शन कर वैराग्य-भावना का उदय आपके हृदय में हो गया था। जो आगे चल कर ब्रह्मचर्यव्रत धारण कर प्रस्फुटित हुआ। 20 वर्ष की उम्र, जो की खाने-पीने, भोगोपभोग या संसारिक आनन्द प्राप्त करने की होती है, तब आप साधु-सत्संगति की भावना को हृदय में धारण कर आचार्य श्री देशभूषण महाराज के पास जयपुर(राज.) पहुँचे। वहाँ अब ब्रह्मचारी विद्याधर उपसर्ग और परीषहों को जीतकर ज्ञान, तपस्या और सेवा का पिण्ड/प्रतीक बन कर जन-जन के मन का प्रेरणा स्त्रोत बन गया था।<br>आप संसार की असारता, जीवन के रहस्य और साधना के महत्व को पह्चान गये थे। तभी तो हृष्ट-पुष्ट, गोरे चिट्टे, लजीले, युवा विद्याधर की निष्ठा, दृढता और अडिगता के सामने मोह, माया, श्रृंगार आदि घुटने टेक चुके थे। वैराग्य भावना ददृढवती हो चली। अथ पदयात्री और करपात्री बनने की भावना से आप गुरुवर श्री ज्ञानसागर जी महाराज के पास मदनगंज-किशनगढ(अजमेर) राजस्थान पहुँचे। गुरुवर के निकट सम्पर्क में रहकर लगभग 1 वर्ष तक कठोर साधना से परिपक्व हो कर मुनिवर श्री ज्ञानसागर जी महाराज के द्वारा राजस्थान की ऐतिहासक नगरी अजमेर में आषाढ शुक्ल पंचमी, वि.सं. 2025, रविवार, 30 जून 1968 ईस्वी को लगभग 22 वर्ष की उम्र में सन्यम का परिपालन हेतु आपने मत्र पिच्छि-कमन्डलु धारण कर संसार की समस्त बाह्य वस्तुओं का परित्याग कर दिया। परिग्रह से अपरिग्रह, असार से सार की ओर बढने वाली यह यात्रा मानो आपने अंगारों पर चलकर/बढकर पूर्ण की। विषयोन्मुख वृत्ति, उद्दंडता एवं उच्छृंखलता उत्पन्न करने वाली इस युवावस्था में वैराग्य एवं तपस्या का ऐसा अनुपम उदाहरण मिलना कठिन ही है।<br>ब्रह्मचारी विद्याधर नामधारी, पूज्य मुनि श्री विद्यासागर महाराज। अब धरती ही बिछौना, आकाश ही उडौना और दिशाएँ ही वस्त्र बन गये थे। दीक्षा के उपरांत गुरुवर श्री ज्ञानसागर जी महाराज की सेवा – सुश्रुषा करते हुए आपकी साधना उत्तरोत्त्र विकसित होती गयी। तब से आज तक अपने प्रति वज्र से कठोर, परंतु दूसरों के प्रति नवनीत से भी मृदु बनकर शीत-ताप एवं वर्षा के गहन झंझावातों में भी आप साधना हेतु अरुक-अथक रूप में प्रवर्तमान हैं। श्रम और अनुशासन, विनय और संयम, तप और त्याग की अग्नि मे तपी आपकी साधना गुरु-आज्ञा पालन, सबके प्रति समता की दृष्टि एवं समस्त जीव कल्याण की भावना सतत प्रवाहित होती रहती है।<br>गुरुवर आचार्य श्री ज्ञानसागर जी की वृद्धावस्था एवं साइटिकासे रुग्ण शरीर की सेवा में कडकडाती शीत हो या तमतमाती धूप, य हो झुलसाती गृष्म की तपन, मुनि विद्यासागर के हाथ गुरुसेवा मे अहर्निश तत्पर रहते। आपकी गुरु सेवा अद्वितीय रही, जो देश, समाज और मानव को दिशा बोध देने वाली थी। तही तो डॉ. पन्नालाल साहित्याचार्य ने लिखा था कि 10 लाख की सम्पत्ति पाने वाला पुत्र भी जितनी माँ-बाप की सेवा नहीं कर सकता, उतनी तत्परता एवं तन्मयता पूर्वक आपने अपने गुरुवर की सेवा की थी।<br>किंतु सल्लेखना के पहले गुरुवर्य ज्ञानसागर जी महाराज ने आचार्य-पद का त्याग आवश्यक जान कर आपने आचार्य पद मुनि विद्यासागर को देने की इच्छा जाहिर की, परंतु आप इस गुरुतर भार को धारण करने किसी भी हालत में तैयार नहीं हुए, तब आचार्य ज्ञानसागर जी ने सम्बोधित कर कहा के साधक को अंत समय में सभी पद का परित्याग आवश्यक माना गया है। इस समय शरीर की ऐसी अवस्था नहीं है कि मैं अन्यत्र जा कर सल्लेखना धारण कर सकूँ। तुम्हें आज गुरु दक्षिणा अर्पण करनी होगी और उसी के प्रतिफल स्वरूप यह पद ग्रहण करना होगा। गुरु-दक्षिणा की बात सुन कर मुनि विद्यासागर निरुत्तर हो गये। तब धन्य हुई नसीराबाद (अजमेर) राजस्थान की वह घडी जब मगसिर कृष्ण द्वितीया, संवत 2029, बुधवार, 22 नवम्बर,1972 ईस्वी को आचार्य श्री ज्ञानसागर जी ने अपने कर कमलों आचार्य पद पर मुनि श्री विद्यासागर महाराज को संस्कारित कर विराजमान किया। इतना ही नहीं मान मर्दन के उन क्षणों को देख कर सहस्त्रों नेत्रों से आँसूओं की धार बह चली जब आचार्य श्री ज्ञानसागर जी ने मुनि श्री विद्यासागर महाराज को आचार्य पद पर विराजमान किया एवं स्वयं आचार्य पद से नीचे उतर कर सामान्य मुनि के समान नीचे बैठ कर नूतन आचार्य श्री विद्यासागर महाराज के चरणों में नमन कर बोले – “ हे आचार्य वर! नमोस्तु, यह शरीर रत्नत्रय साधना में शिथिल होता जा रहा है, इन्द्रियाँ अपना सम्यक काम नहीं कर पा रही हैं। अतः आपके श्री चरणों में विधिवत सल्लेखना पूर्वक समाधिमरण धारण करना चाहता हूँ, कृपया मुझे अनुगृहित करें।“ आचार्य श्री विद्यासागर ने अपने गुरु की अपूर्व सेवा की। पूर्ण निमर्मत्व भावपूर्वक आचार्य ज्ञानसागर जी मरुभूमि में वि. सं. 2030 वर्ष की ज्येष्ठ मास की अमावस्या को प्रचंड ग्रीष्म की तपन के बीच 4 दिनों के निर्जल उपवास पूर्वक नसीराबाद (राज.) में ही शुक्रवार, 1 जून 1973 ईस्वी को 10 बजकर 10 मिनट पर इस नश्वर देह को त्याग कर समाधिमरण को प्राप्त हुए।<br>आचार्य विद्यासागरजी द्वारा रचित रचना-संसार में सर्वाधिक चर्चित ओर महत्वपूर्ण उपलब्धि के रूप में “मूक माटी” महाकाव्य ने हिन्दी-साहित्य और हिन्दी सत-सहित्य जगत में आचार्य श्री को काव्य की आत्मा तक पहुँचाया है।<br><br><b>संक्षिप्त परिचय<br>जन्म:\tआश्विन शुक्ल पूर्णिमा (शरद पूर्णिमा) वि.सं. २००३, १०-१०-१९४६, गुरुवार, रात्रि में १२:३० बजे<br>जन्म नाम :\tश्री विद्याधरजी<br>जन्म स्थान :\tचिक्कोड़ी (ग्राम-सदलगा के पास), बेलगाँव (कर्नाटक)<br>माता जी नाम :\tश्रीमती श्रीमंतीजी (आर्यिकाश्री समयमतिजी)<br>पिताजी नाम :\tश्री मल्लप्पाजी अष्टगे (मुनिश्री मल्लिसागरजी)<br>ब्रह्मचर्य व्रत :\tश्री दिगम्बर जैन अतिशय क्षेत्र, चूलगिरि (खानियाजी), जयपुर (राजस्थान)<br>प्रतिमा:\tसात (आचार्यश्री देशभूषणजी महाराज से)<br>स्थल :\t१९६६ में श्रवण बेलगोला, हासन (कर्नाटक)<br>मुनि दीक्षा :\tआषाढ़, शुक्ल पंचमी वि.सं., २०२५, ३०-०६-१९६८, रविवार<br>मुनि दीक्षा स्थान :\tअजमेर (राजस्थान)<br>मुनि दीक्षा गुरु :\tआचार्य श्री १०८ ज्ञानसागरजी महाराज<br>आचार्य पद :\tमार्गशीर्ष कृष्ण द्वितीया-वि.सं. २०२९, दिनांक २२-११-१९७२, बुधवार<br>आचार्य पद स्थान :\tनसीराबाद (राजस्थान) में<br>आचार्य पद प्रदाता :\tआचार्य श्री १०८ ज्ञानसागरजी महाराज<br><br>English :<br><br>Birth :\t10-10-1946,Sharad Purnima,Ashwin Shukl Punam<br>Birth Name:\tVdiyadhar<br>Birth Place :\tChikodi,Sadlaga,Belgaon,Karnatak<br>Mother's Name :\tShrimati Shrimati Jain (Aaryika Samaymati Ji)<br>Father's Name\tShri Mallapa Ji(Muni Shri 108 Mallisagar Ji)<br>7 Pratima Vrat :\tAacharya Deshbhushan Ji Maharaj<br>Brahmcharya Vrat:\tJaipur Raj.<br>Muni Diksha\t30 June 1968<br>Muni Diksha Guru\tAacharya Shri 108 Gyan Sagar Ji Maharaj<br>Muni Diksha Place :\tAjmer<br>Aacharya Pad :\t22-11-1972<br>Aacharya Pad Place :\tNashirabaad ,Raj.<br>Aacharya Pad Pradata :\tAacharya Shri 108 Gyan Sagar Ji Maharaj<br></b><br><br>Acharya Vidya Sagarji Maharaj was born on 10th October 1946 in village Saslaga (Karnatka). He was digambar jain by cast. His Father's name was Shri Malappa Ashtge and mother's name was Srimati. devi. Acharya Vidyasagarji is a bachelor .He Adopted BRAHMACHARYA VRAT by MUNI DESHBUSHAN in early age and MUNI INITIAN on 30.06.1968 at AJMER, RAJASTHAN by ACHARYA GYAN SAGARji. He adopted the acharya pad, the highest position of jain saint on 22nd November 1972 at Nasirabad , Rajasthan by acharya Gyan Sagarji He is a very learned man knows the languages - Hindi/ English/ Sanskrit/ Kenned/ Prakrat etc.<br>Acharya Sri Vidya Sagarji has been a source of inspiration for the construction, development and renovation of Jain temples and Images all over India. Acharya Sri always inspired to invite scholars of eminence to have discourses on different subjects . Acharya Sri has also taken classes to teach his disciples different Granthas. More than hundred books articles have been written on Acharya Sri 108 Vidya sagarji by eminent scholars and dedicated devotees. Also a number of Cassettes, C.D.,etc. has been released on Acharya Sri Vidya Sagarji. The book, Mook Mati written by Acahrya Sri is the most important subject covered by the research scholars.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"PushpdantSagar.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Pushpdant Sagar\tJi Maharaj</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"ViragSagarJiMaharaj.html\" data-toolbar=\"-mbrBtnMove\">Aacharya Shri 108 Virag Sagar\tJi Maharaj</a> "
+        }
+      ]
+    },
+    "ViragSagarJi.html": {
+      "settings": {
+        "title": "Aacharya Shri 108 Virag Sagar Ji Maharaj",
+        "meta_descr": "Aacharya Shri 108 Virag Sagar Ji Maharaj",
+        "order": 13
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "font-family": "'Bitter', serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-45",
+          "_params": {
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Bitter",
+              "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "css": "'Bitter', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-46",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": "0",
+            "bgColor": "#1571bc",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/munif1-2-1400x539.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "text-align": "center",
+              "font-size": "24px"
+            },
+            "U": {
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "center",
+              "color": "#f3c649"
+            },
+            ".btn": {
+              "font-size": "13px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-47",
+          "_params": {
+            "imageSize": "34",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/acharya-virag-sagar-2000x3000.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/viragsagarji2-1-1400x2133.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"line-height: 1.1;\">Aacharya Shri &nbsp;108 Virag Sagar\tJi Maharaj&nbsp;</span><span style=\"line-height: 1.1;\"><br></span><br><u>Brief Introduction</u><br><br>",
+          "text": "<br><br>भारत वर्ष की पावन भूमि सदैव नर रत्नों की जन्म दात्री रही है,जहाँ पर तीर्थंकरों ,यतिवरो तथा महापुरुषों ने जन्म लेकर पुरुषार्थ द्वारा ,त्याग ,तपस्या के माध्यम से अपना आत्म कल्याण किया।इस श्रंखला में आचार्य श्री विराग सागर जी ने जन्म लेकर इस वसुंधरा को गोरवान्वित किया।मध्य क्षेत्र के पथरिया दमोह जिला ,म.प्र. नगर में जब सूर्य उच्च शशि पथ पर भ्रमण कर रहा था तब २ मई १९६३ के दिन श्रावक श्रेष्ठ श्री कपूर चंद जी तथा माँ श्यामा देवी के घर यह युग की महान विभूति का अवतरण हुआ,जिसका नाम रखा गया 'अरविन्द'।बाल अरविन्द जी ने कक्षा पांचवी तक की मौलिक शिक्षा ग्राम पथरिया में ही प्राप्त की और आगे की पढाई करने हेतु सन१९७४ में ग्यारह वर्ष की आयु में अपने माता पिता से दूर कटनी आये। वहां पर श्री शांति निकेतन दिग. जैन संस्था में ६ वर्ष तक धार्मिक तथा लोकिक शिक्षा ग्रहण की।लोकिक शिक्षा ग्यारहवीं तक पूर्ण की।साथ में शास्त्री की परीक्षा भी उत्तीर्ण की।इस छह वर्ष की कालावधी में अनेक साधू -संतों का समागम प्राप्त हुआ,जो भावी जीवन की नीव डालने में साधनभूत हुआ।<br><br><b>संक्षिप्त परिचय<br><br>जन्म:\tशुक्रवार , २ मई ,१९६३<br>जन्म स्थान :\tपथरिया (जिला -दमोह ,म.प्र.)<br>जन्म का नाम\tअरविन्द जैन (टिन्नू )<br>माता का नाम :\tश्रीमती श्यामा देवी<br>पिता का नाम :\tश्री कपूर चंद जी<br>क्षुल्लक दीक्षा तिथि :\t२ फरवरी १९८०<br>क्षुल्लक दीक्षा स्थान :\tग्राम बुढार (जिला-शेहडोल ,म.प्र.)<br>क्षुल्लक दीक्षा गुरु :\tआचार्य श्री १०८ सन्मति सागर जी महाराज<br>मुनि दीक्षा तिथि :\t९ दिसंबर १९८३<br>दीक्षा नाम :\tविराग सागर जी महाराज<br>दीक्षा गुरु :\tआचार्य श्री १०८ विमलसागरजी महाराज<br>मुनि दीक्षा स्थल :\tऔरंगाबाद<br>आचार्य पद तिथि:\t८ नवम्बर १९९२<br>आचार्य पद प्रदाता: आचार्य श्री १०८ विमलसागरजी महाराज<br>आचार्य पद स्थल :सिद्ध क्षेत्र द्रोणगिरी<br>विशेषता :उपसर्ग विजेता<br><br>Birth : Friday, 2 may,1963<br>Birth Place: Pathariya (Distirct-Damoh,M.P.)<br>Birth Name : Arvind jain (Tinnu)<br>Mothers Name : Shrimati Mathuradevi Jain<br>Father’s Name : Shri Komalchand Jain<br>Kshullak Deeksha : 2nd feb 1980<br>Kshullak Deeksha Guru : Aacharya Shri 108 Sanmati Sagar Ji Maharaj<br>Kshullak Deeksha Name : Kshullak Purn Sagar Ji Maharaj<br>Muni Diksha : 9 Dec 1983<br>Diksha Guru : Aacharya Shri 108 Vimal Sagar Ji Maharaj<br>Place of Muni Diksha : Aurangabaad<br>Place of Aacharya Pad : Siddha Kshetra Drongiri<br>Aacharya Diksha : 08 Nov. 1992<br>Acharya Pad Pradata: AcharyaPravar Vatsalaya Ratnakar Vimal Sagar Ji Maharaj<br>Importance : Upsarg Vijeta</b><br><br>अरविन्द जी को मुनिसेवा तथा जिनेन्द्र भक्ति में अत्यधिक आनंद आता था।उनके यही संस्कार धीरे धीरे वृद्धि को प्राप्त होते गए तो मुस्कुराते हुए संयम पथ पर पग बढ़ाते हुए अरविन्द जी को देख कर आचार्य श्री सन्मति सागर जी ने २ फरवरी १९८० में ग्राम बुढार (जिला-शेहडोल ,म.प्र.)में क्षुल्लक दीक्षा प्रदान की और उनका नाम श्री १०५ क्षु. पूर्ण सागर रखा गया।उस समय उनकी आयु १७ वर्ष थी।<br>क्षु. पूर्ण सागर जी महाराज की मुनि बनने की आंतरिक इच्छा थी।तीन वर्ष बाद ही परम पूज्य आचार्य श्री १०८ विमल सागर जी के संघ का औरंगाबाद नगरी में समागम हुआ और पूर्ण सागर जी की इच्छा फलित हुई।आचार्यश्री ने ९ दिसंबर १९८३ को उनकी मुनि दीक्षा के संस्कार किये और २० वर्ष की आयु में क्षु. पूर्ण सागर जी मुनि विराग सागर हो गए।<br>मुनि विराग सागर जी की कठोर साधना तथा गुरु कृपा के मंगल आशीर्वाद के फल स्वरूप श्री सिद्ध क्षेत्र द्रोणगिरी पर ८ नवम्बर १९९२ के शुभ दिवस पर समाज एवं विद्वत वर्ग द्वारा आपको महोत्सव पूर्वक आचार्य पद प्रदान किया गया। आचार्य श्री की अपार करुणा,मुख की आभा एवं शरीर की कान्ति से प्रभावित होकर कई श्रावक-श्राविकाए शिष्यत्व ग्रहण कर अपना जीवन आपके चरणों में समर्पित कर निरापद होते है।विराग वाटिका में सुरभित फूल और कलियाँ खिल रही है।आचार्य श्री एक सृजनशील गणेषक तथा चिन्तक है।अपने गहरे चिंतन की छाप प्रकट करने वाला उनका साहित्य निम्न उल्लेखित है- शुद्धोपयोग ,आगम चकखू साहू ,सम्यक दर्शन ,सल्लेखना से समाधि ,तीर्थंकर ऐसे बने,कर्म विज्ञान भाग १ व् २ ,चैतन्य चिंतन ,साधना,आरधना आदि|<br>कुछ वर्ष पूर्व भिलाई में आचार्य श्री पर उपसर्ग हुआ वह निश्चित ही उनके लिए परीक्षा की बेल थी ,जिसमे आचार्य श्री खरे उतरे ।एक वीतरागी संत ,शांत संयमित परिणामो के साथ क्षमा भावना से किस तरह उपसर्ग विजेता हो सकता है इसका परिचय सारे दुनिया को दिलाया।आपके द्वारा इस प्रसंग में दिखाई गयी क्षमा शीलता तपस्वियों के इतिहास में अंकित रहेगी। आचार्य श्री के सम्पूर्ण जीवन में ऐसा प्रतीत होता है कि संयम व् साधना के बल पर असंभव को भी संभव बनाया जा सकता है।बचपन का संकल्प और मन की शक्ति के बल पर तथा स्थितियों का संयोग इन तीनो के बल पर आचार्य श्री के जीवनको महान बना दिया। <br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ViharshSagarJi.html\" data-toolbar=\"-mbrBtnMove\">Muni Shri 108 Viharsh Sagar Ji Maharaj</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"VimadSagarJi.html\" data-toolbar=\"-mbrBtnMove\">Muni Shri 108 Vimad Sagar Ji Maharaj</a>  "
         }
       ]
     }
