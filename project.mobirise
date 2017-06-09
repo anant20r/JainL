@@ -8,7 +8,7 @@
       "styling": {
         "primaryColor": "#2969b0",
         "secondaryColor": "#bfcecb",
-        "successColor": "#2969b0",
+        "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 161,
+    "uniqCompNum": 170,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -37,6 +37,73 @@
         "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-4p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showTitle": false,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
+          "title": "&nbsp;",
+          "text": "Coming Soon :- Jain Pravachan, About &nbsp;Jain Acharya Shri 108, About Jain Temples, <br>Jain Library Jain Vidhanacharya, Jain History and Pictures.&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-4n",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/wall-3-2000x1520.png",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
         {
           "_inherit": "msg-box5",
           "_styles": {
@@ -93,42 +160,6 @@
           "title": "Shri Bhaktamar Stotra In Sanskrit&nbsp;",
           "text": ".",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"Videos.html\" data-toolbar=\"-mbrBtnMove\">MORE</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            },
-            "DIV": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "video1-5",
-          "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/jainlives-1400x317.jpg",
-              "width": 1400,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=45YPNDzHt2k",
-              "aspectratio": "4:3",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "text": "Welcome to JainLives.com&nbsp;"
         },
         {
           "_inherit": "menu",
@@ -200,7 +231,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -210,7 +241,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/finallogo-118x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jainlives-146x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -224,7 +255,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -246,7 +277,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/finallogo-128x138.png",
+              "src": "@PROJECT_PATH@/assets/images/jainlives-128x111.png",
               "width": 128,
               "active": true,
               "link": "#top",
@@ -261,7 +292,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>Jainlives.com<br>New Delhi -110019",
-          "text2": "<strong>Contacts</strong><br>\nEmail: jainlives@gmail.com<br>\nPhone: +91 (0) 7042030020<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: jainlives@gmail.com<br>\nPhone: +91 - 7042030020<br>",
           "text3": "<strong>Links</strong><br>\n<a href=\"#top\">Website builder</a><br>\nDownload for Android<br><br>"
         },
         {
@@ -289,7 +320,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 JainLives."
+          "text": "Copyright (c) 2017 JainLives."
         }
       ]
     },
@@ -370,7 +401,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -394,7 +425,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -640,7 +671,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -664,7 +695,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -855,7 +886,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -879,7 +910,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         }
       ]
     },
@@ -960,7 +991,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -984,7 +1015,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -1120,7 +1151,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1144,7 +1175,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1204,414 +1235,42 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         },
         {
-          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery4",
+          "_name": "contacts1",
+          "_anchor": "contacts1-3c",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here"
-              }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": true,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
-          "_anchor": "gallery4-1y",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery4",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here"
-              }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": true,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jainlives-128x111.png",
+              "width": 128,
+              "active": true,
+              "link": "#top",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
           },
-          "_anchor": "gallery4-1z",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here"
-              }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery2-20",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider3",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": true,
-                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "IMAGE SLIDER",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "BACKGROUND VIDEO",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "BOOTSTRAP SLIDER",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#fff",
-            "showBullets": true
-          },
-          "_anchor": "slider3-21",
-          "articleLayout": false
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": true,
-                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "FULL SCREEN SLIDER",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "VIDEO SLIDE",
-                "showText": true,
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "IMAGE SLIDE",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
-          },
-          "_anchor": "slider-22",
-          "articleLayout": false
+          "text1": "<strong>Address</strong><br>Jainlives.com<br>New Delhi -110019",
+          "text2": "<strong>Contacts</strong><br>\nEmail: jainlives@gmail.com<br>\nPhone: +91 - 7042030020<br>",
+          "text3": "<strong>Links</strong><br>\n<a href=\"#top\">Website builder</a><br>\nDownload for Android<br><br>"
         }
       ]
     },
@@ -1692,7 +1351,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1716,7 +1375,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -1898,7 +1557,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1922,7 +1581,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2104,7 +1763,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -2128,7 +1787,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2310,7 +1969,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -2334,7 +1993,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2516,7 +2175,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -2540,7 +2199,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2725,7 +2384,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -2749,7 +2408,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -2931,7 +2590,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -2955,7 +2614,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -3137,7 +2796,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -3161,7 +2820,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -3343,7 +3002,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -3367,7 +3026,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
@@ -3549,7 +3208,7 @@
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -3573,7 +3232,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JAINLIVES</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Videos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">VIDEO</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Stores.html\">STORIES<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kidsmore.html\">KIDS</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Prabachan.html\">PRAVACHAN<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">BHAJAN</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"AacharyaTree.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">SHRI 108</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaTree.html\" aria-expanded=\"false\">Aacharya Shri 108 Aadisagar</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108MahaveerKirtiJiMaharaj.html\">Aacharya Shri 108 Mahaveer Kirti Ji Maharaj<br> </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"AacharyaShri108VimalSagarJiMaharaj.html\">Aacharya Shri 108 Vimal Sagar Ji Maharaj </a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VidhyaSagarJi.html\">Aacharya Shri 108 Vidya Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViragSagarJi.html\">Aacharya Shri 108 Virag Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PushpdantSagar.html\">Aacharya Shri 108 Pushpdant Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TarunSagarJiMaharaj.html\">Aacharya Shri 108 Tarun Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"PulakSagarJiMaharaj.html\">Aacharya Shri 108 Pulak Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"VimadSagarJi.html\">Aacharya Shri 108 Vimad Sagar Ji Maharaj</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ViharshSagarJi.html\">Aacharya Shri 108 Viharsh Sagar Ji Maharaj</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contact.html\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"www.jainlives.com\">UPLOAD Video</a></li>"
         },
         {
           "_tags": [
